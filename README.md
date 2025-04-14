@@ -1,5 +1,5 @@
 # 汉字识别YOLOv11项目
-(相应的原始数据请去我的Hugging Face 主页对应的Datasets下载)
+
 ## 运行环境配置
 
 1. Python环境:
@@ -48,6 +48,8 @@ print(torch.cuda.device_count())  # 应输出GPU数量
 ```
 
 ## 数据集准备
+- 相应的原始数据请去我的Hugging Face 主页对应的Datasets下载
+- https://huggingface.co/AISkywalker
 1. 准备数据目录结构：
 ```
 Data/
