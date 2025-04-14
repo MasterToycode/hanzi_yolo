@@ -141,15 +141,15 @@ python predict.py
 - mAP@0.5: 0.90-0.95
 - mAP@0.5:0.95: 0.90-0.95
 
-![训练效果图](runs\detect\train9\results.png)
+![训练效果图](ultralytics/runs/detect/train9/results.png)
 
 典型测试结果：
-![测试效果图](runs\detect\val9\val_batch2_pred.jpg)
-![测试效果图](runs\detect\val9\confusion_matrix.png)
+![测试效果图](ultralytics/runs/detect/val9/val_batch2_pred.jpg)
+![测试效果图](ultralytics/runs/detect/val9/confusion_matrix.png)
 
 典型预测结果：
-![预测效果图](runs\detect\predict2\image0.jpg)
-![预测效果图](runs\detect\predict\image0.jpg)
+![预测效果图](ultralytics/runs/detect/predict2/image0.jpg)
+![预测效果图](ultralytics/runs/detect/predict2/image0.jpg)
 
 
 
