@@ -1,5 +1,5 @@
 # 汉字识别YOLOv11项目
-
+(相应的原始数据请去我的Hugging Face 主页对应的Datasets下载)
 ## 运行环境配置
 
 1. Python环境:
