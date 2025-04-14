@@ -38,13 +38,13 @@ print(torch.cuda.device_count())  # 应输出GPU数量
 ├── predict.py          # 预测推理脚本
 ├── yolo11n.pt          # 预训练模型
 |── best_model.pt        # 训练得到的最佳模型，对应为train9的得到的最好的模型
-├── runs/               # 训练结果和预测输出
-│   ├── detect/
+├── ultralytics
+    |—— cfg/
+        └── default.yaml # 训练配置文件               
+│   ├── detect/# 训练结果和预测输出
 │   │   ├── train*/     # 训练、测试集测试日志和权重
 │   │   └── predict/    # 预测结果
-└── ultralytics/
-    └── cfg/
-        └── default.yaml # 训练配置文件
+└──
 ```
 
 ## 数据集准备
